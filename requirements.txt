@@ -1,0 +1,2 @@
+requests>=2.31        # only needed for validating live URLs
+beautifulsoup4>=4.12  # recommended for HTML extraction (a regex fallback is used without it)
