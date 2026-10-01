@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://example.com/en-ae/blog/hreflang-for-gcc-websites/#article",
+  "headline": "Hreflang for GCC Websites: en-ae, ar-ae, en-sa and ar-sa Explained",
+  "description": "A practical guide to setting up hreflang for multi-language sites targeting the UAE and Saudi Arabia.",
+  "image": [
+    "https://example.com/assets/blog/hreflang-gcc-1200x675.jpg"
+  ],
+  "datePublished": "2026-09-15T09:00:00+04:00",
+  "dateModified": "2026-09-28T12:30:00+04:00",
+  "inLanguage": "en-AE",
+  "author": {
+    "@type": "Person",
+    "name": "Jane Doe",
+    "url": "https://example.com/authors/jane-doe/"
+  },
+  "publisher": {
+    "@id": "https://example.com/#organization"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/en-ae/blog/hreflang-for-gcc-websites/"
+  }
+}

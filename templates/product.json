@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "https://example.com/en-sa/products/air-purifier-x200/#product",
+  "name": "Example X200 Air Purifier",
+  "description": "HEPA air purifier for offices up to 60 m², designed for dusty climates.",
+  "image": [
+    "https://example.com/assets/x200-front.jpg",
+    "https://example.com/assets/x200-side.jpg"
+  ],
+  "sku": "X200-SA",
+  "mpn": "EX-X200",
+  "brand": {
+    "@type": "Brand",
+    "name": "Example"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://example.com/en-sa/products/air-purifier-x200/",
+    "price": "1299.00",
+    "priceCurrency": "SAR",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "priceValidUntil": "2026-12-31",
+    "seller": {
+      "@id": "https://example.com/#organization"
+    }
+  }
+}

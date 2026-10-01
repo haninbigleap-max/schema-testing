@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://example.com/#organization",
+  "name": "Example Co",
+  "alternateName": "إكزامبل كو",
+  "url": "https://example.com/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://example.com/assets/logo.png",
+    "width": 512,
+    "height": 512
+  },
+  "description": "Facilities services company providing commercial cleaning and AC maintenance in the UAE and Saudi Arabia.",
+  "email": "hello@example.com",
+  "telephone": "+971-4-000-0000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Office 100, Example Tower",
+    "addressLocality": "Sharjah",
+    "addressRegion": "Sharjah",
+    "addressCountry": "AE"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+971-4-000-0000",
+      "contactType": "customer service",
+      "areaServed": "AE",
+      "availableLanguage": [
+        "English",
+        "Arabic"
+      ]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+966-11-000-0000",
+      "contactType": "customer service",
+      "areaServed": "SA",
+      "availableLanguage": [
+        "English",
+        "Arabic"
+      ]
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/example",
+    "https://x.com/example",
+    "https://www.instagram.com/example"
+  ]
+}

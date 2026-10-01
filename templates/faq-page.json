@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should commercial AC units be serviced in Dubai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For commercial premises in Dubai we recommend a service every three months, with a full duct clean once a year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you serve both the UAE and Saudi Arabia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We operate in Dubai, Abu Dhabi and Sharjah in the UAE, and in Riyadh and Jeddah in Saudi Arabia."
+      }
+    }
+  ]
+}
