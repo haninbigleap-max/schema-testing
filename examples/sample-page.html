@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-ae">
+<head>
+  <meta charset="utf-8">
+  <title>Example X200 Air Purifier | Example Co</title>
+  <!--
+    Sample page for trying validate_schema.py.
+    It contains three JSON-LD blocks with deliberate mistakes:
+      1. Product: price with a currency symbol, a non-ISO currency, no image or brand
+      2. BreadcrumbList: positions out of order and a relative URL
+      3. A block with a JSON syntax error (trailing comma)
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Example X200 Air Purifier",
+    "offers": {
+      "@type": "Offer",
+      "price": "AED 1,299",
+      "priceCurrency": "Dirham",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://example.com/en-ae/"},
+      {"@type": "ListItem", "position": 3, "name": "Air Purifiers", "item": "/en-ae/air-purifiers/"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Example Co",
+  }
+  </script>
+</head>
+<body>
+  <h1>Example X200 Air Purifier</h1>
+</body>
+</html>
